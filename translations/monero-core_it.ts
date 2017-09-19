@@ -118,7 +118,7 @@
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="93"/>
         <source>Starting Monero daemon in %1 seconds</source>
-        <translation>Il daemon partirà tra %1 secondi</translation>
+        <translation>Il demone partirà tra %1 secondi</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="115"/>
