@@ -502,7 +502,7 @@
     <message>
         <location filename="../pages/Mining.qml" line="208"/>
         <source>Status: </source>
-        <translation>Stato:</translation>
+        <translation>Stato: </translation>
     </message>
 </context>
 <context>
