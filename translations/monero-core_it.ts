@@ -123,12 +123,12 @@
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="115"/>
         <source>Start daemon (%1)</source>
-        <translation>Start daemon (%1)</translation>
+        <translation>Avvio demone (%1)</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="132"/>
         <source>Use custom settings</source>
-        <translation>utilizza impostazioni personalizzate</translation>
+        <translation>Utilizza impostazioni personalizzate</translation>
     </message>
 </context>
 <context>
@@ -182,7 +182,7 @@
     <message>
         <location filename="../pages/History.qml" line="70"/>
         <source> selected: </source>
-        <translation>selezionato:</translation>
+        <translation>selezionato: </translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="183"/>
@@ -421,17 +421,17 @@
     <message>
         <location filename="../pages/Mining.qml" line="73"/>
         <source>Solo mining</source>
-        <translation>Solo Mining</translation>
+        <translation>Solo mining</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="80"/>
         <source>(only available for local daemons)</source>
-        <translation>(disponibile solo per daemons locali)</translation>
+        <translation>(disponibile solo per demoni locali)</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
         <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Minare con il tuo computer incrementa la resistenza del network. Più persone minano, più è difficile attaccare monero, e anche un singolo bit è importante.&lt;br&gt; &lt;br&gt;Minare ti da anche una piccola chance di guadagnare qualche Monero. Il tuo computer creerà &quot;hashes&quot; cercando di risolvere un blocco. Se ne trovi uno, riceverai la ricompensa associata al blocco. Buona fortuna!</translation>
+        <translation>Avviare mining con il tuo computer incrementa la resistenza del network. Più persone avviano il mining, più è difficile attaccare monero, e anche un singolo bit è importante.&lt;br&gt; &lt;br&gt;Avviare il mining ti da anche una piccola chance di guadagnare qualche Monero. Il tuo computer creerà &quot;hashes&quot; cercando di risolvere un blocco. Se ne trovi uno, riceverai la ricompensa associata al blocco. Buona fortuna!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
@@ -446,8 +446,9 @@
     <message>
         <location filename="../pages/Mining.qml" line="116"/>
         <source>Background mining (experimental)</source>
-        <translation>Minare in background (sperimentale)</translation>
-    </message>
+        <translation>Avviare mining in background (sperimentale)</translation>
+    </messa
+	ge>
     <message>
         <location filename="../pages/Mining.qml" line="132"/>
         <source>Enable mining when running on battery</source>
@@ -461,22 +462,22 @@
     <message>
         <location filename="../pages/Mining.qml" line="151"/>
         <source>Start mining</source>
-        <translation>Inizia a minare</translation>
+        <translation>Avvia mining</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="161"/>
         <source>Error starting mining</source>
-        <translation>Errore durante inizio mining</translation>
+        <translation>Errore durante avvio mining</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="162"/>
         <source>Couldn&apos;t start mining.&lt;br&gt;</source>
-        <translation>Impossibile inizare a minare&lt;br&gt;</translation>
+        <translation>Impossibile avviare mining&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="164"/>
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
-        <translation>Minare è possibile solo utilizzando il daemon locale. Avvia daemon locale per iniziare a minare&lt;br&gt;</translation>
+        <translation>Il mining è possibile solo utilizzando il demone locale. Avvia demone locale per avviare il mining&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="176"/>
@@ -486,17 +487,17 @@
     <message>
         <location filename="../pages/Mining.qml" line="192"/>
         <source>Status: not mining</source>
-        <translation>Stato: non stai minando</translation>
+        <translation>Stato: mining non avviato</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="203"/>
         <source>Mining at %1 H/s</source>
-        <translation>Minando a %1 H/s</translation>
+        <translation>Mining attivo a %1 H/s</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="206"/>
         <source>Not mining</source>
-        <translation>Non stai minando</translation>
+        <translation>Mining non avviato</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="208"/>
@@ -614,7 +615,7 @@
     <message>
         <location filename="../pages/Receive.qml" line="107"/>
         <source>WARNING: no connection to daemon</source>
-        <translation>AVVISO: non connesso al daemon</translation>
+        <translation>AVVISO: non connesso al demone</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="129"/>
@@ -649,12 +650,12 @@
     <message>
         <location filename="../pages/Receive.qml" line="156"/>
         <source> with more money (%1)</source>
-        <translation>con più soldi (%1)</translation>
+        <translation>con più fondi (%1)</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="158"/>
         <source> with not enough money (%1)</source>
-        <translation>senza soldi sufficienti (%1)</translation>
+        <translation>senza fondi sufficienti (%1)</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="190"/>
@@ -689,7 +690,7 @@
     <message>
         <location filename="../pages/Receive.qml" line="389"/>
         <source>Failed to save QrCode to </source>
-        <translation>Impossibile salvare codice QR in</translation>
+        <translation>Impossibile salvare codice QR in </translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="400"/>
@@ -729,7 +730,7 @@
     <message>
         <location filename="../pages/Receive.qml" line="344"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Click Generate to create a random payment id for a new customer&lt;/p&gt; &lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Questo è un semplice tracker per le vendite:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Clicca &quot;Genera&quot; per creare un ID Pagamento casuale per un nuovo cliente&lt;/p&gt; &lt;p&gt;Fai scannerizzare al cliente il codice QR per effettuare un pagamento (Se il cliente possiede un QR scanner).&lt;/p&gt;&lt;p&gt;Questa pagina scannerizzerà automaticamente la blockchain e il txpool in cerca di transazioni in entrata usando il codice QR. Se inserisci una qauntità controllerà anche se ci sono transazioni in entrata per l&apos;ammontare specificato.&lt;/p&gt;It&apos;Sta a te decidere se accettare transazioni non confermate.</translation>
+        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Questo è un semplice tracker per le vendite:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Clicca &quot;Genera&quot; per creare un ID Pagamento casuale per un nuovo cliente&lt;/p&gt; &lt;p&gt;Fai scannerizzare al cliente il codice QR per effettuare un pagamento (Se il cliente possiede un QR scanner).&lt;/p&gt;&lt;p&gt;Questa pagina scannerizzerà automaticamente la blockchain e il txpool in cerca di transazioni in entrata usando il codice QR. Se inserisci una qauntità controllerà anche se ci sono transazioni in entrata per l&apos;ammontare specificato.&lt;/p&gt;It&apos;Sta a te decidere se accettare transazioni non confermate.</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="254"/>
@@ -789,22 +790,22 @@
     <message>
         <location filename="../pages/Settings.qml" line="527"/>
         <source>Secret view key</source>
-        <translation>Chiave segreta per vista</translation>
+        <translation>Chiave segreta di visualizzazione</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="528"/>
         <source>Public view key</source>
-        <translation>Chiave vista pubblica</translation>
+        <translation>Chiave di visualizzazione pubblica</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="529"/>
         <source>Secret spend key</source>
-        <translation>Chiave segreta spendibile</translation>
+        <translation>Chiave segreta di spesa </translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="530"/>
         <source>Public spend key</source>
-        <translation>Chiave pubblica spendibile</translation>
+        <translation>Chiave di spesa pubblica</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="540"/>
@@ -819,7 +820,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="306"/>
         <source>Daemon address</source>
-        <translation>Indirizzo daemon</translation>
+        <translation>Indirizzo demone</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="72"/>
@@ -839,22 +840,22 @@
     <message>
         <location filename="../pages/Settings.qml" line="193"/>
         <source>Manage daemon</source>
-        <translation>Gestisci daemon</translation>
+        <translation>Gestisci demone</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="212"/>
         <source>Start daemon</source>
-        <translation>Avvia daemon</translation>
+        <translation>Avvia demone</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="226"/>
         <source>Stop daemon</source>
-        <translation>Arresta daemon</translation>
+        <translation>Arresta demone</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="286"/>
         <source>Daemon startup flags</source>
-        <translation>Parametri inizializzazione daemon</translation>
+        <translation>Parametri inizializzazione demone</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="265"/>
@@ -865,7 +866,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="120"/>
         <source>Show seed &amp; keys</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Mostra seed &amp; chiavi</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="163"/>
@@ -945,12 +946,12 @@
     <message>
         <location filename="../pages/Settings.qml" line="499"/>
         <source>Embedded Monero version: </source>
-        <translation>Versione Monero inserita:</translation>
+        <translation>Versione Monero integrata:</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="509"/>
         <source>Daemon log</source>
-        <translation>Log daemon</translation>
+        <translation>Log demone</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="573"/>
@@ -960,22 +961,22 @@
     <message>
         <location filename="../pages/Settings.qml" line="582"/>
         <source>Warning</source>
-        <translation>Avvertimento</translation>
+        <translation>Avviso</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="585"/>
         <source>Error: Filesystem is read only</source>
-        <translation>Errore: Filesystem è solo-lettura</translation>
+        <translation>Errore: Filesystem è di solo-lettura</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="589"/>
         <source>Warning: There&apos;s only %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
-        <translation>Avvertimento: ci sono solo %1 GB disponibili nel dispositivo. La blockchain richiede ~%2 GB di spazio.</translation>
+        <translation>Avviso: ci sono solo %1 GB disponibili nel dispositivo. La blockchain richiede ~%2 GB di spazio.</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="591"/>
         <source>Note: There&apos;s %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nota: ci sono %1 GB disponibili nel dispositivo. La blockchain richiede ~%2 GB di spazio.</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="595"/>
@@ -1003,17 +1004,17 @@
     <message>
         <location filename="../pages/Sign.qml" line="68"/>
         <source>Good signature</source>
-        <translation>Firma buona</translation>
+        <translation>Firma valida</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="69"/>
         <source>This is a good signature</source>
-        <translation>Questa è una buona firma</translation>
+        <translation>Questa è una firma valida</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="73"/>
         <source>Bad signature</source>
-        <translation>Firma inadatta</translation>
+        <translation>Firma non valida</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="74"/>
@@ -1101,7 +1102,7 @@
     <message>
         <location filename="../pages/Sign.qml" line="419"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;                            Signing address &lt;font size=&apos;2&apos;&gt;  ( Paste in  or select from &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;                            Indirizzo di firma &lt;font size=&apos;2&apos;&gt;  ( Incolla  oppure seleziona da &lt;/font&gt; &lt;una href=&apos;#&apos;&gt;Rubrica&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
 </context>
 <context>
@@ -1137,22 +1138,22 @@
     <message>
         <location filename="../components/StandardDropdown.qml" line="200"/>
         <source>Slow (x0.25 fee)</source>
-        <translation type="unfinished">Lento (x0.25 tassa)</translation>
+        <translation>Lento (x0.25 commissione)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="201"/>
         <source>Default (x1 fee)</source>
-        <translation type="unfinished">Default (x1 tassa)</translation>
+        <translation>Default (x1 commissione)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="202"/>
         <source>Fast (x5 fee)</source>
-        <translation type="unfinished">Veloce (x5 tassa)</translation>
+        <translation>Veloce (x5 commissione)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="203"/>
         <source>Fastest (x41.5 fee)</source>
-        <translation type="unfinished">Velocissimo (x41.5 tassa)</translation>
+        <translation>Velocissimo (x41.5 commissione)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="204"/>
@@ -1270,13 +1271,13 @@
         <location filename="../pages/Transfer.qml" line="704"/>
         <location filename="../pages/Transfer.qml" line="716"/>
         <source>Wallet is not connected to daemon.</source>
-        <translation>Portafoglio non connesso al daemon</translation>
+        <translation>Portafoglio non connesso al demone</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="719"/>
         <source>Connected daemon is not compatible with GUI. 
 Please upgrade or connect to another daemon</source>
-        <translation>Il daemon connesso non è compatibile con l&apos;interfaccia grafica. Aggiorna o connetti a un altro daemon</translation>
+        <translation>Il demone connesso non è compatibile con l&apos;interfaccia grafica. Aggiorna o connetti ad un altro demone</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="724"/>
@@ -1301,7 +1302,7 @@ Please upgrade or connect to another daemon</source>
     <message>
         <location filename="../pages/Transfer.qml" line="44"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Start daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</source>
-        <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Start daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</translation>
+        <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Avvia demone&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="175"/>
@@ -1326,27 +1327,27 @@ Please upgrade or connect to another daemon</source>
     <message>
         <location filename="../pages/Transfer.qml" line="206"/>
         <source>Slow (x0.25 fee)</source>
-        <translation>Lento (x0.25 tassa)</translation>
+        <translation>Lento (x0.25 commissione)</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="207"/>
         <source>Default (x1 fee)</source>
-        <translation>Default (x1 tassa)</translation>
+        <translation>Default (x1 commissione)</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="208"/>
         <source>Fast (x5 fee)</source>
-        <translation>Veloce (x5 tassa)</translation>
+        <translation>Veloce (x5 commissione)</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="209"/>
         <source>Fastest (x41.5 fee)</source>
-        <translation>Velocissimo (x41.5 tassa)</translation>
+        <translation>Velocissimo (x41.5 commissione)</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="237"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;                      Address &lt;font size=&apos;2&apos;&gt;  ( Paste in or select from &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;                      Address &lt;font size=&apos;2&apos;&gt;  ( Paste in or select from &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="255"/>
@@ -1412,7 +1413,7 @@ Please upgrade or connect to another daemon</source>
     <message>
         <location filename="../pages/Transfer.qml" line="499"/>
         <source>Sweep Unmixable</source>
-        <translation type="unfinished"></translation>
+        <translation>Esegui Sweep Unmixable</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="513"/>
@@ -1496,7 +1497,7 @@ Ringsize: </source>
     <message>
         <location filename="../pages/Transfer.qml" line="645"/>
         <source>Money sent successfully</source>
-        <translation>Denaro inviato correttamente</translation>
+        <translation>Fondi inviati correttamente</translation>
     </message>
 </context>
 <context>
@@ -1544,7 +1545,7 @@ Ringsize: </source>
     <message>
         <location filename="../pages/TxKey.qml" line="193"/>
         <source>Paste tx key</source>
-        <translation>Inserisci tx key</translation>
+        <translation>Inserisci chiave tx</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="216"/>
@@ -1554,7 +1555,7 @@ Ringsize: </source>
     <message>
         <location filename="../pages/TxKey.qml" line="185"/>
         <source>Transaction key</source>
-        <translation>Key transazione</translation>
+        <translation>Chiave transazione</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="110"/>
@@ -1597,7 +1598,7 @@ Ringsize: </source>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
         <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Il mining rende sicura la rete di Monero e ricompensa per il lavoro fatto. Questa opzione permetterà a Monero di minare quando il tuo computer è inattivo e collegato alla corrente. Smette di minare quando riprendi a lavorare.</translation>
+        <translation>Il mining rende sicura la rete di Monero e ricompensa per il lavoro fatto. Questa opzione permetterà a Monero di avviare il mining quando il tuo computer è inattivo e collegato alla corrente. Sospende il mining quando riprendi a lavorare.</translation>
     </message>
 </context>
 <context>
@@ -1646,7 +1647,7 @@ Ringsize: </source>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
         <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Il mining rende sicura la rete di Monero e ricompensa per il lavoro fatto. Questa opzione permetterà a Monero di minare quando il tuo computer è inattivo e collegato alla corrente. Smette di minare quando riprendi a lavorare.</translation>
+        <translation>Il mining rende sicura la rete di Monero e ricompensa per il lavoro fatto. Questa opzione permetterà a Monero di avviare il mining quando il tuo computer è inattivo e collegato alla corrente. Sospende il mining quando riprendi a lavorare.</translation>
     </message>
 </context>
 <context>
@@ -1688,7 +1689,7 @@ Ringsize: </source>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="67"/>
         <source>Daemon address</source>
-        <translation>Indirizzo daemon</translation>
+        <translation>Indirizzo demone</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="68"/>
@@ -1776,7 +1777,7 @@ Ringsize: </source>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="166"/>
         <source>Restore from keys</source>
-        <translation>Ripristina da key</translation>
+        <translation>Ripristina da chiave</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="203"/>
@@ -1786,12 +1787,12 @@ Ringsize: </source>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="211"/>
         <source>View key (private)</source>
-        <translation>Key visualizzazione(privata)</translation>
+        <translation>Chiave di visualizzazione(privata)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="220"/>
         <source>Spend key (private)</source>
-        <translation>Usa key (privata)</translation>
+        <translation>Chiave di spesa (privata)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="232"/>
@@ -1842,7 +1843,7 @@ Ringsize: </source>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="197"/>
         <source>Restore wallet from keys or mnemonic seed</source>
-        <translation>Ripristina portafoglio da key o seed mnemonico</translation>
+        <translation>Ripristina portafoglio da chiave o seed mnemonico</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="241"/>
@@ -1852,7 +1853,7 @@ Ringsize: </source>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="262"/>
         <source>Custom daemon address (optional)</source>
-        <translation>Indirizzo daemon personalizzato (opzionale)</translation>
+        <translation>Indirizzo demone personalizzato (opzionale)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="295"/>
@@ -1987,33 +1988,33 @@ Description: </source>
     <message>
         <location filename="../main.qml" line="407"/>
         <source>Waiting for daemon to start...</source>
-        <translation>Aspettando partenza del daemon...</translation>
+        <translation>Sto aspettando l'avvio del demone...</translation>
     </message>
     <message>
         <location filename="../main.qml" line="413"/>
         <source>Waiting for daemon to stop...</source>
-        <translation>Aspettando arresto del daemon...</translation>
+        <translation>Sto aspettando l'arresto del demone...</translation>
     </message>
     <message>
         <location filename="../main.qml" line="438"/>
         <source>Daemon failed to start</source>
-        <translation>Impossibile avviare daemon</translation>
+        <translation>Impossibile avviare demone</translation>
     </message>
     <message>
         <location filename="../main.qml" line="439"/>
         <source>Please check your wallet and daemon log for errors. You can also try to start %1 manually.</source>
-        <translation>Controlla i log del portafoglio e del daemon. Puoi anche tentare di aprire %1 manualmente.</translation>
+        <translation>Controlla i log del portafoglio e del demone. Puoi anche tentare di aprire %1 manualmente.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="493"/>
         <source>Can&apos;t create transaction: Wrong daemon version: </source>
-        <translation>Impossibile creare transazione: Versione daemon sbagliata: </translation>
+        <translation>Impossibile creare transazione: Versione demone sbagliata: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="504"/>
         <location filename="../main.qml" line="617"/>
         <source>No unmixable outputs to sweep</source>
-        <translation>Nessun outupt non mixabile su cui eseguire lo sweep</translation>
+        <translation>Nessun output non mixabile su cui eseguire lo sweep</translation>
     </message>
     <message>
         <location filename="../main.qml" line="516"/>
@@ -2036,17 +2037,17 @@ Ringsize: </source>
     <message>
         <location filename="../main.qml" line="1317"/>
         <source>Daemon is running</source>
-        <translation>Daemon attivo</translation>
+        <translation>Demone attivo</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1318"/>
         <source>Daemon will still be running in background when GUI is closed.</source>
-        <translation>Il daemon continuerà ad essere attivo dopo che l&apos;interfaccia grafica è stata chiusa.</translation>
+        <translation>Il demone continuerà ad essere attivo dopo che l&apos;interfaccia grafica è stata chiusa.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1320"/>
         <source>Stop daemon</source>
-        <translation>Arresta daemon</translation>
+        <translation>Arresta demone</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1355"/>
@@ -2075,12 +2076,12 @@ Fee: </source>
     <message>
         <location filename="../main.qml" line="566"/>
         <source>Insufficient funds. Unlocked balance: %1</source>
-        <translation>fondi insufficienti: totale sbloccato: %1</translation>
+        <translation>Fondi insufficienti: totale sbloccato: %1</translation>
     </message>
     <message>
         <location filename="../main.qml" line="669"/>
         <source>Couldn&apos;t send the money: </source>
-        <translation>Impossibile inviare denaro: </translation>
+        <translation>Impossibile inviare fondi: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="672"/>
@@ -2100,7 +2101,7 @@ Fee: </source>
     <message>
         <location filename="../main.qml" line="678"/>
         <source>Money sent successfully: %1 transaction(s) </source>
-        <translation>Denaro inviato correttamente: %1 transazione/i</translation>
+        <translation>Fondi inviati correttamente: %1 transazione/i</translation>
     </message>
     <message>
         <location filename="../main.qml" line="678"/>
@@ -2115,7 +2116,7 @@ Fee: </source>
     <message>
         <location filename="../main.qml" line="723"/>
         <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Questo indirizzo ha ricevuto %1 monero, ma la transazione non è ancora stata minata</translation>
+        <translation>Questo indirizzo ha ricevuto %1 monero, ma la transazione non è ancora stata validata dal network</translation>
     </message>
     <message>
         <location filename="../main.qml" line="732"/>
@@ -2125,7 +2126,7 @@ Fee: </source>
     <message>
         <location filename="../main.qml" line="744"/>
         <source>Balance (syncing)</source>
-        <translation>Totale (sincronizzando)</translation>
+        <translation>Totale (in sincronizzazione)</translation>
     </message>
     <message>
         <location filename="../main.qml" line="744"/>
