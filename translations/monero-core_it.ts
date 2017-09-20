@@ -118,12 +118,12 @@
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="93"/>
         <source>Starting Monero daemon in %1 seconds</source>
-        <translation>Il demone partirà tra %1 secondi</translation>
+        <translation>Il daemon partirà tra %1 secondi</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="115"/>
         <source>Start daemon (%1)</source>
-        <translation>Avvio demone (%1)</translation>
+        <translation>Avvio daemon (%1)</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="132"/>
@@ -426,7 +426,7 @@
     <message>
         <location filename="../pages/Mining.qml" line="80"/>
         <source>(only available for local daemons)</source>
-        <translation>(disponibile solo per demoni locali)</translation>
+        <translation>(disponibile solo per daemons locali)</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
@@ -477,7 +477,7 @@
     <message>
         <location filename="../pages/Mining.qml" line="164"/>
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
-        <translation>Il mining è possibile solo utilizzando il demone locale. Avvia demone locale per avviare il mining&lt;br&gt;</translation>
+        <translation>Il mining è possibile solo utilizzando il daemon locale. Avvia daemon locale per avviare il mining&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="176"/>
@@ -615,7 +615,7 @@
     <message>
         <location filename="../pages/Receive.qml" line="107"/>
         <source>WARNING: no connection to daemon</source>
-        <translation>AVVISO: non connesso al demone</translation>
+        <translation>AVVISO: non connesso al daemon</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="129"/>
@@ -820,7 +820,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="306"/>
         <source>Daemon address</source>
-        <translation>Indirizzo demone</translation>
+        <translation>Indirizzo daemon</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="72"/>
@@ -840,22 +840,22 @@
     <message>
         <location filename="../pages/Settings.qml" line="193"/>
         <source>Manage daemon</source>
-        <translation>Gestisci demone</translation>
+        <translation>Gestisci daemon</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="212"/>
         <source>Start daemon</source>
-        <translation>Avvia demone</translation>
+        <translation>Avvia daemon</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="226"/>
         <source>Stop daemon</source>
-        <translation>Arresta demone</translation>
+        <translation>Arresta daemon</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="286"/>
         <source>Daemon startup flags</source>
-        <translation>Parametri inizializzazione demone</translation>
+        <translation>Parametri inizializzazione daemon</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="265"/>
@@ -951,7 +951,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="509"/>
         <source>Daemon log</source>
-        <translation>Log demone</translation>
+        <translation>Log daemon</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="573"/>
@@ -1271,13 +1271,13 @@
         <location filename="../pages/Transfer.qml" line="704"/>
         <location filename="../pages/Transfer.qml" line="716"/>
         <source>Wallet is not connected to daemon.</source>
-        <translation>Portafoglio non connesso al demone</translation>
+        <translation>Portafoglio non connesso al daemon</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="719"/>
         <source>Connected daemon is not compatible with GUI. 
 Please upgrade or connect to another daemon</source>
-        <translation>Il demone connesso non è compatibile con l&apos;interfaccia grafica. Aggiorna o connetti ad un altro demone</translation>
+        <translation>Il daemon connesso non è compatibile con l&apos;interfaccia grafica. Aggiorna o connetti ad un altro daemon</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="724"/>
@@ -1302,7 +1302,7 @@ Please upgrade or connect to another daemon</source>
     <message>
         <location filename="../pages/Transfer.qml" line="44"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Start daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</source>
-        <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Avvia demone&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</translation>
+        <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Avvia daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="175"/>
@@ -1689,7 +1689,7 @@ Ringsize: </source>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="67"/>
         <source>Daemon address</source>
-        <translation>Indirizzo demone</translation>
+        <translation>Indirizzo daemon</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="68"/>
@@ -1853,7 +1853,7 @@ Ringsize: </source>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="262"/>
         <source>Custom daemon address (optional)</source>
-        <translation>Indirizzo demone personalizzato (opzionale)</translation>
+        <translation>Indirizzo daemon personalizzato (opzionale)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="295"/>
@@ -1989,27 +1989,27 @@ Description: </source>
     <message>
         <location filename="../main.qml" line="407"/>
         <source>Waiting for daemon to start...</source>
-        <translation>Sto aspettando l'avvio del demone...</translation>
+        <translation>Sto aspettando l'avvio del daemon...</translation>
     </message>
     <message>
         <location filename="../main.qml" line="413"/>
         <source>Waiting for daemon to stop...</source>
-        <translation>Sto aspettando l'arresto del demone...</translation>
+        <translation>Sto aspettando l'arresto del daemon...</translation>
     </message>
     <message>
         <location filename="../main.qml" line="438"/>
         <source>Daemon failed to start</source>
-        <translation>Impossibile avviare demone</translation>
+        <translation>Impossibile avviare daemon</translation>
     </message>
     <message>
         <location filename="../main.qml" line="439"/>
         <source>Please check your wallet and daemon log for errors. You can also try to start %1 manually.</source>
-        <translation>Controlla i log del portafoglio e del demone. Puoi anche tentare di aprire %1 manualmente.</translation>
+        <translation>Controlla i log del portafoglio e del daemon. Puoi anche tentare di aprire %1 manualmente.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="493"/>
         <source>Can&apos;t create transaction: Wrong daemon version: </source>
-        <translation>Impossibile creare transazione: Versione demone sbagliata: </translation>
+        <translation>Impossibile creare transazione: Versione daemon sbagliata: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="504"/>
@@ -2043,12 +2043,12 @@ Ringsize: </source>
     <message>
         <location filename="../main.qml" line="1318"/>
         <source>Daemon will still be running in background when GUI is closed.</source>
-        <translation>Il demone continuerà ad essere attivo dopo che l&apos;interfaccia grafica è stata chiusa.</translation>
+        <translation>Il daemon continuerà ad essere attivo dopo che l&apos;interfaccia grafica è stata chiusa.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1320"/>
         <source>Stop daemon</source>
-        <translation>Arresta demone</translation>
+        <translation>Arresta daemon</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1355"/>
